@@ -1,0 +1,8 @@
+<input [(ngModel)]="input" placeholder="Benne das Objekt">
+<button (click)="add()">Hinzufügen/Erstellen</button>
+<ul> 
+  <li *ngFor="let item of todos">       
+    <span>{{ item }}</span> 
+    <button (click)="delete(item)">Löschen</button>
+  </li>
+</ul>
