@@ -22,7 +22,7 @@ export class TodoListComponent {
     }
   }
 
-  delete(todo: string) {
-    this.todos = this.todos.filter(item => item !== todo);
+  delete(index: number) {
+    this.todos.splice(index, 1);
   }
 }
