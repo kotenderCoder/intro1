@@ -1,0 +1,9 @@
+<div class="board-container">
+  <table class="board-table">
+    <tr *ngFor="let row of gameboard; let xIndex = index">
+      <td *ngFor="let cell of row; let yIndex = index" [class]="isDynamicCell(xIndex, yIndex)">
+        <img *ngIf="hasfigure(xIndex, yIndex)" src="{{image}}"  />
+      </td>
+    </tr>
+  </table>
+</div>

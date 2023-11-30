@@ -1,0 +1,11 @@
+<input [(ngModel)]="zielwort" placeholder="Erstelle eine Runde">
+
+<h1>{{this.ratewort}}</h1>
+
+<button (click)="startround(zielwort)">Start</button>
+
+<div
+  *ngFor="let letter of alphabet; let i = index">
+    <button (click)="addLetter(letter)" [disabled]="isButtonDisabled(letter)">{{ letter }}</button>
+  <br *ngIf="(i+1) === 8 || i ===16">
+</div>

@@ -1,0 +1,76 @@
+/* board.component.css */
+.board-container {
+  display: flex;
+  justify-content: center;
+}
+
+.board-table {
+  border-collapse: collapse;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+}
+.playerone {
+  background-color: #ff0000;
+  border: 1px solid #000;
+
+}
+.playertwo {
+  background-color: #0000ff;
+  border: 1px solid #000;
+
+}
+.playerthree {
+  background-color: #00ff00;
+  border: 1px solid #000;
+
+}
+.playerfour {
+  background-color: #ffff00;
+  border: 1px solid #000;
+
+}
+.playfield {
+  background-color:blueviolet;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+}
+.playeronegoal{
+  background-color: lightcoral;
+  border: 1px solid #000;
+
+}
+.playertwogoal{
+  background-color: lightblue;
+  border: 1px solid #000;
+
+}
+.playerthreegoal{
+  background-color: lightgreen;
+  border: 1px solid #000;
+
+}
+.playerfourgoal{
+  background-color: lightyellow;
+  border: 1px solid #000;
+
+}
+.playeronestart{
+  background-color: red;
+  border-radius: 50%; /* Macht die Zelle zu einem Kreis */
+}
+.playertwostart{
+  background-color: blue;
+  border-radius: 50%; /* Macht die Zelle zu einem Kreis */
+}
+.playerthreestart{
+  background-color: green;
+  border-radius: 50%; /* Macht die Zelle zu einem Kreis */
+}
+.playerfourstart{
+  background-color: yellow;
+  border-radius: 50%; /* Macht die Zelle zu einem Kreis */
+}
